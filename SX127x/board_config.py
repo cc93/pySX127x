@@ -60,7 +60,7 @@ class BOARD:
         time.sleep(.5)
         BOARD.led_off()
         # switch
-        GPIO.setup(BOARD.SWITCH, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) 
+#         GPIO.setup(BOARD.SWITCH, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) 
         # DIOx
 #         for gpio_pin in [BOARD.DIO0, BOARD.DIO1, BOARD.DIO2, BOARD.DIO3]:
         for gpio_pin in [BOARD.DIO0,]:
